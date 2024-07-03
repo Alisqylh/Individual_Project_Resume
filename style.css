@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header{
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding:20px;
+}
+
+footer{ 
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #006699;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px black;
+    max-width: 960px;
+    padding: 1rem;
+    margin: 2rem auto;
+    background-color: lightblue;
+
+h1, h2, h3 {
+    color: #003366;
+}
+
+h3.aesthetic-font {
+    font-family: 'Georgia', cursive;
+    color: #003366;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #003366;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2.aesthetic-font {
+    font-family: 'Serif', cursive;
+    color: #003366;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #003366;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 0px;
+}
+
+image-item {
+    text-align: center;
+    width: 200px;
+}
+img {
+    max-width: 18%;
+    height: 25s;
+    display: block;
+    margin: 20px auto;
+    border-radius: 180px;
+    transition: transform 0.3s;
+
+}
+img:hover {
+    transform: scale(1.1);
+}
+
+.text-content p {
+    margin: 10px 0;
+}
+
+p, ul {
+    margin: 20px 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #003366;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #006699;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #003366;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
